@@ -42,7 +42,7 @@ initialrowvalue : 19      55555555555555555555
 localtransition : pedestrianevacuation-rule
 
 [pedestrianevacuation-rule]
-%Pedestrian 1 - Going up
+%Pedestrian 1 - Going upwards
 rule : 0 100 {(0,0)=1 and (-1,0)=0 and (1,0)!=5 and (-1,1)!=3}
 rule : 1 100 {(0,0)=0 and (1,0)=1 and (0,-1)!=5 and (0,1)!=5 and (1,1)!=5 and (0,1)!=3}
 
